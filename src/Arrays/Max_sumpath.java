@@ -85,12 +85,12 @@ public class Max_sumpath {
 			i++;
 		}
 
-		// Add remaining elements of ar2[]
+		// Add remaining elements of arr2[]
 		while (j < y.length) {
 			sum2 += y[j];
 			j++;
 		}
-		// Add maximum of two sums of remaining elements
+		// Add max of two sums of remaining elements
 		result += Math.max(sum1, sum2);
 
 		return result;
