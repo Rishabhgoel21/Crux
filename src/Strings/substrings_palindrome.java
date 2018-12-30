@@ -23,7 +23,6 @@ public class substrings_palindrome {
 
 				if (reverse.equals(temp)) {
 					System.out.println(temp);
-
 				}
 
 			}
